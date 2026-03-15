@@ -141,10 +141,10 @@ def comprehensive_dataset_comparison(data1, data2,
     results['difference_artifacts_2'] = artifacts_2_diff
     results['absolute_difference'] = abs_diff
     
-    # Method 2: Correlation analysis
-    corr_map, poor_corr = correlation_based_detection(data1, data2)
-    results['correlation_map'] = corr_map
-    results['poor_correlation_areas'] = poor_corr
+    # Method 2: Correlation analysis (not being used)
+    #corr_map, poor_corr = correlation_based_detection(data1, data2)
+    #results['correlation_map'] = corr_map
+    #results['poor_correlation_areas'] = poor_corr
     
     # Method 3: Residual analysis
     res1, res2, res_diff, res_artifacts = residual_analysis(data1, data2)
